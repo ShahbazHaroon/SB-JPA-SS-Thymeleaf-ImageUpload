@@ -15,7 +15,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>SB-JPA-SS-Thymeleaf</name>
-	<description>CRUD Project for Spring Boot, Spring MVC, Spring Data JPA, Spring Security, Thymeleaf and Bootstrap</description>
+	<description>CRUD Project for Spring Boot, Spring MVC, Spring Data JPA, Spring Security, Thymeleaf and Bootstrap with Image Upload utility</description>
 	<url>https://github.com/ShahbazHaroon/SB-JPA-SS-Thymeleaf</url>
 	
 	<!--
