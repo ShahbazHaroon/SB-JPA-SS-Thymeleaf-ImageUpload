@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.9.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+
+	<groupId>com.ubaidsample</groupId>
+	<artifactId>SB-JPA-SS-Thymeleaf-ImageUpload</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>SB-JPA-SS-Thymeleaf</name>
+	<description>CRUD Project for Spring Boot, Spring MVC, Spring Data JPA, Spring Security, Thymeleaf and Bootstrap</description>
+	<url>https://github.com/ShahbazHaroon/SB-JPA-SS-Thymeleaf</url>
+	
+	<!--
+	
+	<issueManagement>
+        <system>JIRA
+        <url>http://issues.apache.org/jira/browse/EMAIL
+    </issueManagement>
+
+    <scm>
+        <connection>scm:git:git://github.com/ShahbazHaroon/SB-JPA-SS-Thymeleaf.git</connection>
+        <developerConnection>scm:git:git@github.com:ShahbazHaroon/SB-JPA-SS-Thymeleaf.git
+        <url>https://github.com/ShahbazHaroon/SB-JPA-SS-Thymeleaf</url>
+    </scm>
+	 
+	 -->
+	 
+	 <developers>
+        <developer>
+            <name>Muhammad Ubaid Ur Raheem AKA Shahbaz Haroon</name>
+            <id>shahbaz.haroon1</id>
+            <email>shahbazharoon@hotmail.com</email>
+            <roles>
+              <role>Technical Manager / Sr. Java Developer</role>
+            </roles>
+            <url>https://github.com/ShahbazHaroon</url>
+        </developer>
+        </developers>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.thymeleaf.extras</groupId>
+			<artifactId>thymeleaf-extras-springsecurity4</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+		<finalName>SB-JPA-SS-Thymeleaf-ImageUpload</finalName>
+	</build>
+
+
+</project>
